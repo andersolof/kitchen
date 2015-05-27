@@ -1,0 +1,20 @@
+header {
+	background: url(../images/kitchencravings.jpg);
+}
+
+.fullheight {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+
+}
+
+header h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
